@@ -13,7 +13,7 @@ namespace InterfaceTests
         public AppConfig()
         {
             Tokens = new Dictionary<string, string>();
-            Tokens.Add("twitch-api", "key");
+            Tokens.Add("twitch-api", "npvkhs29vkxa40e1czo3yoa210cwf6");
         }
     }
 }
