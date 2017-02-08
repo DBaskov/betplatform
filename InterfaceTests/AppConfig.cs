@@ -10,10 +10,23 @@ namespace InterfaceTests
     {
 
         public Dictionary<string, string> Tokens { get; set; }
+        public Dictionary<string, string> ConnectionStrings { get; set; }
         public AppConfig()
         {
+            SetTokens();
+            SetConnectionStrings();
+        }
+
+        private void SetConnectionStrings()
+        {
+            ConnectionStrings = new Dictionary<string, string>();
+            ConnectionStrings.Add("local", "mongodb://localhost"); 
+        }
+
+        private void SetTokens()
+        {
             Tokens = new Dictionary<string, string>();
-            Tokens.Add("twitch-api", "npvkhs29vkxa40e1czo3yoa210cwf6");
+
         }
     }
 }
