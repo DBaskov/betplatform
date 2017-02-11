@@ -26,7 +26,7 @@ namespace InterfaceTests
         private void SetTokens()
         {
             Tokens = new Dictionary<string, string>();
-            Tokens.Add("twitch", "");
+            Tokens.Add("twitch", "npvkhs29vkxa40e1czo3yoa210cwf6");
             Tokens.Add("azubu", "");
         }
     }
